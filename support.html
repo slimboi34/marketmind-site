@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support — MarketMind</title>
+<style>
+:root { color-scheme: dark; }
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: #0d0d0d; color: #fff;
+  font: 16px/1.65 system-ui, -apple-system, "Segoe UI", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+.wrap { max-width: 720px; margin: 0 auto; padding: 56px 24px 96px; }
+a { color: #3987e5; }
+h1 { font-size: 30px; line-height: 1.2; letter-spacing: -0.02em; margin: 0 0 6px; }
+h2 { font-size: 18px; margin: 34px 0 10px; letter-spacing: -0.01em; }
+h3 { font-size: 15px; margin: 24px 0 8px; color: #c3c2b7; }
+p, li { color: #c3c2b7; }
+li { margin: 4px 0; }
+hr { border: 0; border-top: 1px solid rgba(255,255,255,.1); margin: 32px 0; }
+code { background: #1a1a19; padding: 1px 5px; border-radius: 4px; font-size: 13px; }
+.brand { display: flex; align-items: center; gap: 10px; margin-bottom: 28px; }
+.dot { width: 11px; height: 11px; border-radius: 50%; background: #3987e5; flex: none; }
+.brand span { font-weight: 650; letter-spacing: -0.01em; color: #fff; }
+.muted { color: #898781; font-size: 13px; }
+.card {
+  background: #1a1a19; border: 1px solid rgba(255,255,255,.1);
+  border-radius: 12px; padding: 18px 20px; margin: 16px 0;
+}
+.foot { margin-top: 52px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,.1); }
+@media (prefers-color-scheme: light) {
+  :root { color-scheme: light; }
+  body { background: #f9f9f7; color: #0b0b0b; }
+  p, li { color: #52514e; }
+  h3 { color: #52514e; }
+  .card { background: #fcfcfb; border-color: rgba(11,11,11,.1); }
+  code { background: #f0efec; }
+}
+</style>
+</head><body><div class="wrap">
+<div class="brand"><span class="dot"></span><span>MarketMind</span></div>
+
+
+<h1>Support</h1>
+<p>MarketMind has no account and no sign-in, so most questions are about data
+rather than access.</p>
+
+<div class="card">
+  <h3 style="margin-top:0">Contact</h3>
+  <p style="margin:0"><a href="https://github.com/slimboi34/marketmind-site/issues/new">Open a support ticket</a>. We
+  usually reply within two working days. Please include your app version (shown
+  at the bottom of the app's About tab) and the instrument symbol involved.</p>
+</div>
+
+<h2>Common questions</h2>
+
+<h3>A price looks wrong or is out of date</h3>
+<p>Every quote records which provider served it. Market data can be delayed,
+and some sources publish once a day rather than continuously — a Treasury yield
+updates on the Federal Reserve's schedule, not tick by tick. MarketMind is an
+information tool; verify anything you intend to act on against an authoritative
+source.</p>
+
+<h3>An instrument shows a price but a flat chart</h3>
+<p>Some sources publish a current price with no history at all. Those
+instruments accumulate a chart from the day they are first tracked rather than
+showing invented data.</p>
+
+<h3>Why are gains blue instead of green?</h3>
+<p>The conventional green/red pair is nearly indistinguishable for people with
+red-green colour blindness — around 8% of men. Blue and red are clearly
+separable for everyone, and every number also carries an explicit sign, so
+direction never depends on colour alone.</p>
+
+<h3>Alerts are not arriving</h3>
+<p>Check that notifications are enabled for MarketMind in iOS Settings. Alerts
+also have a cooldown, so a market-wide move sends one digest rather than a
+notification per instrument.</p>
+
+<h3>The Home Screen widget is not updating</h3>
+<p>iOS controls how often widgets may refresh and reduces this when battery is
+low or the app is used rarely. The widget shows the age of its data in the
+corner, and falls back to the last values it received rather than showing an
+error.</p>
+
+<h3>How do I delete my data?</h3>
+<p>Open the About tab and tap <strong>Delete my data</strong>. Your alert rules,
+their history and your push token are erased from our server immediately.</p>
+
+<h2>Not financial advice</h2>
+<p>MarketMind does not provide investment advice or recommendations, does not
+connect to any brokerage or wallet, and cannot see your holdings. You are
+responsible for your own investment decisions.</p>
+
+
+<div class="foot muted">
+  <a href="index.html">Home</a> · <a href="privacy.html">Privacy</a> · <a href="support.html">Support</a>
+</div>
+</div></body></html>
